@@ -2,26 +2,27 @@
   "name": "nextjs-material-ui",
   "version": "4.0.0",
   "private": true,
-  "dependencies": {
-    "@material-ui/core": "latest",
-    "clsx": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
+  "keywords": [],
+  "description": "",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
-  "devDependencies": {
-    "@types/next": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "typescript": "latest"
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "clsx": "1.1.1",
+    "mongodb": "^3.5.9",
+    "next": "9.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
-  "keywords": [],
-  "description": ""
+  "devDependencies": {
+    "@types/mongodb": "^3.5.25",
+    "@types/node": "14.0.27",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "typescript": "3.9.7"
+  }
 }

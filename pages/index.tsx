@@ -1,10 +1,11 @@
-import React from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import React from "react";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
+import ProTip from "../src/ProTip";
+import Link from "../src/Link";
+import Copyright from "../src/Copyright";
+import Button from "@material-ui/core/Button";
 
 export default function Index() {
   return (
@@ -16,6 +17,9 @@ export default function Index() {
         <Link href="/about" color="secondary">
           Go to the about page
         </Link>
+        <Button variant="contained" color="primary">
+          Hello World
+        </Button>
         <ProTip />
         <Copyright />
       </Box>
